@@ -1,5 +1,6 @@
-ar = input()
-if((ar>='a' and ar<= 'z') or (ar>='A' and ar<='Z')):
-  print("Alphabet")
-else:
-  print("no")
+string = 'alphapet'
+print(string.isalpha()) 
+string = 'a'
+print(string.isalpha()) 
+string = 'a'
+print( string.isalpha()) 
